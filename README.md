@@ -36,4 +36,4 @@ Agentic AI
 Multimodal Systems
 Creative AI
 Author
-Shreya
+Shreya Roy
