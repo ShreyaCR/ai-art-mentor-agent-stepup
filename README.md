@@ -1,25 +1,34 @@
-AI Art Mentor Agent
-Overview
-AI Art Mentor Agent is an agentic AI project built using Python.
+# AI Art Mentor Agent
 
-The system combines:
+An agentic AI project that helps artists improve paintings using GPT-powered reasoning.
 
-OpenAI GPT models
-Web Search (DuckDuckGo)
-Persistent Memory
-Gradio Web Interface
-Painting Critique
-Artistic Guidance
-Features
-Art Mentoring
-Watercolor advice
-Composition feedback
-Color theory guidance
-Agent Capabilities
-Web search tool
-Long-term memory
-Conversational reasoning
-User Interface
+## Features
+
+- Painting critique
+- Artistic guidance
+- Web search tool
+- Persistent memory
+- Gradio web interface
+- Image upload support
+
+## Technologies
+
+- Python
+- OpenAI API
+- Gradio
+- DuckDuckGo Search
+- JSON Memory Storage
+
+## Learning Goals
+
+- Agentic AI
+- Tool use
+- Memory systems
+- Multimodal AI
+
+## Author
+
+Shreya Roy
 Gradio web app
 Image upload support
 Technologies Used
