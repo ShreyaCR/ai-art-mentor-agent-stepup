@@ -1,48 +1,60 @@
-# AI Art Mentor Agent
+# 🎨 AI Art Mentor Agent
 
-An agentic AI project that helps artists improve paintings using GPT-powered reasoning.
+An AI-powered multimodal art mentor built with Python, OpenAI API and Gradio.
 
-## Features
+The application allows artists to upload a painting and receive AI-generated feedback, artistic guidance and improvement suggestions. The agent can also use web search when additional information is required and maintains persistent user memory for more personalized interactions.
 
-- Painting critique
-- Artistic guidance
-- Web search tool
-- Persistent memory
-- Gradio web interface
-- Image upload support
+## 🚀 Project Overview
 
-## Technologies
+The goal of this project was to explore how agentic AI can be applied to a creative domain.
 
-- Python
-- OpenAI API
-- Gradio
-- DuckDuckGo Search
-- JSON Memory Storage
+Instead of building a simple chatbot, I designed an AI assistant capable of:
 
-## Learning Goals
+- Understanding user questions about art
+- Providing painting critiques
+- Giving artistic improvement suggestions
+- Accepting uploaded painting images
+- Using an external web-search tool
+- Maintaining persistent memory
+- Producing responses through a Gradio web interface
 
-- Agentic AI
-- Tool use
-- Memory systems
-- Multimodal AI
+## 🧠 Key Features
 
-## Author
+### 1. Painting Critique
+Users can upload a painting and receive AI-generated feedback about composition, color, values and possible improvements.
 
-Shreya Roy
-Gradio web app
-Image upload support
-Technologies Used
-Python
-OpenAI API
-DuckDuckGo Search
-Gradio
-JSON Memory Storage
-Learning Goals
-This project was created as part of my journey into:
+### 2. Multimodal Interaction
+The application supports image input along with natural-language questions.
 
-AI Engineering
-Agentic AI
-Multimodal Systems
-Creative AI
-Author
-Shreya Roy
+### 3. Tool Use
+The agent can use a web-search tool when additional information is required.
+
+### 4. Persistent Memory
+User information and previous interactions can be stored using JSON-based memory.
+
+### 5. Gradio Interface
+A simple web interface allows users to interact with the AI mentor without directly working with the Python code.
+
+## 🏗️ System Architecture
+
+```text
+User
+  │
+  ▼
+Gradio Interface
+  │
+  ▼
+AI Art Mentor Agent
+  │
+  ├── OpenAI API
+  │
+  ├── Image Input
+  │
+  ├── Web Search Tool
+  │
+  └── Persistent Memory
+          │
+          ▼
+     AI-generated
+     Art Feedback
+
