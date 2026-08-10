@@ -6,7 +6,7 @@ The application allows artists to upload a painting and receive AI-generated fee
 
 ## 🚀 Project Overview
 
-The goal of this project was to explore how agentic AI can be applied to a creative domain.
+This project demonstrates how agentic AI can be applied to a creative domain by combining multimodal interaction, tool use, persistent memory and an interactive web interface.
 
 Instead of building a simple chatbot, I designed an AI assistant capable of:
 
@@ -36,7 +36,9 @@ User information and previous interactions can be stored using JSON-based memory
 A simple web interface allows users to interact with the AI mentor without directly working with the Python code.
 
 ## 🏗️ System Architecture
+## 🖥️ Application Preview
 
+The AI Art Mentor provides an interactive interface where users can upload a painting, ask questions and receive AI-generated artistic feedback.
 ```text
 User
   │
